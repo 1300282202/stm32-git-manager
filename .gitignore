@@ -1,0 +1,16 @@
+node_modules/
+dist/
+data/
+.test-work/
+work/
+app/
+app-b/
+app-c/
+app-d/
+*.log
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+

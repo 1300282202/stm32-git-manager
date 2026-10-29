@@ -1,0 +1,15 @@
+.d-muted { color:#5b717b; padding:8px 0; line-height:1.7; overflow-wrap:anywhere; }
+body:has(.nav-item[data-view="engineering"].active) #content > .card:not(.b-record) { padding:20px; margin-bottom:18px; }
+body:has(.nav-item[data-view="engineering"].active) .card > select { display:block; width:100%; margin:12px 0; }
+.d-note-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.d-note-grid > .card { padding:20px; min-width:0; }
+.d-note-grid textarea { width:100%; min-height:400px; line-height:1.7; font-family:Consolas,"Microsoft YaHei",monospace; }
+.d-markdown { min-height:400px; overflow-wrap:anywhere; padding:10px; color:#263e48; line-height:1.8; }
+.d-markdown pre { background:#edf2f3; border-radius:8px; padding:14px; white-space:pre-wrap; }
+.d-markdown code { background:#edf2f3; padding:2px 4px; border-radius:4px; }
+.d-markdown table { width:100%; border-collapse:collapse; }
+.d-markdown th,.d-markdown td { border:1px solid #ccd9dd; padding:8px; text-align:left; }
+.d-markdown img { display:block; max-width:100%; max-height:320px; margin:10px 0; }
+.d-link { border:0; background:transparent; color:#087569; text-decoration:underline; padding:0 3px; }
+.d-image-placeholder { color:#637a83; }
+@media(max-width:1150px) { .d-note-grid { grid-template-columns:1fr; } }

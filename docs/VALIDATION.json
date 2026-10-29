@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "version": "0.4.1",
+  "date": "2026-10-29",
+  "platform": "Windows x64",
+  "node": "v24.22.1",
+  "syntax": {
+    "passed": true,
+    "files": 19
+  },
+  "backend": {
+    "total": 62,
+    "passed": 62,
+    "failed": 0,
+    "skipped": 0,
+    "cancelled": 0,
+    "includesParentTests": 3
+  },
+  "developmentUI": {
+    "passed": true,
+    "scenarios": 7
+  },
+  "packagedUI": {
+    "passed": true,
+    "scenarios": 7,
+    "buildExecution": "test-simulation",
+    "rendererErrors": [],
+    "outboundHttpRequests": []
+  },
+  "firstRun": {
+    "passed": true,
+    "hasNoPreselectedProject": true,
+    "rendererErrors": [],
+    "outboundHttpRequests": []
+  },
+  "previousRealKeil": {
+    "version": "0.4.0",
+    "uv4": "5.18",
+    "compiler": "ARMCC V5.06 update 1 (build 61)",
+    "device": "STM32F103C8",
+    "target": "Target 1",
+    "errors": 0,
+    "warnings": 1,
+    "produced": "AXF",
+    "originalFilesUnchanged": true,
+    "flashed": false,
+    "hardwareTested": false
+  },
+  "privateProjectDataPublished": false
+}
